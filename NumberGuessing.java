@@ -6,6 +6,7 @@ public class NumberGuessing {
 
     public static void main(String[] args) {
         int MyNumber = (int) (Math.random() * 100);
+        
 
         Scanner sc = new Scanner(System.in);
         int UserNumber = 0;
